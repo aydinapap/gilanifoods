@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'klm';
+    src: url(../font/lalezar.woff);
+}
+body{
+    font-family: 'klm';
+    background-image: url(../aks/نماد\ گیلان.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.s{
+   background-color: rgba(233, 233, 233,0.6); 
+}
+#t{
+   text-decoration: none; 
+}

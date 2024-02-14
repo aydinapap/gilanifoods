@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<head>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="{% static 'css/اردک واویشکا.css' %}">
+<ul>
+    <li align="right"><a href="{% url 'about' %}">راهنما</a></li>
+<hr>
+   
+</ul>
+
+<h1 align="center" style="background-color:white," >به گیلان فوودز خوش آمدید</h1>
+<hr>
+<h3 align="center" style="color: crimson;"> گیلان فوودز معدن غذاهای گیلانی است</h3>
+<hr>
+<h2 align="right" style="background-color: aliceblue;">شما میتوانید از طریق لینک های زیر اطلاعات غذای مورد نظرتان را دریافت کنید</h2>
+<h3 align="right" style="background-color: aliceblue;">:انواع غذا های گیلانی</h3>
+<ul>
+    <li align="center"><a href="{% url 'اردک واویشکا' %}">اردک واویشکا</a></li>
+    <li align="center"><a href="{% url 'انار بیج' %}">انار بیج</a></li>
+    <li align="center"><a href="{% url 'باقالی قاتوق' %}">باقالی قاتوق</a></li>
+    <li align="center"><a href="{% url 'ترش تره'%}">ترش تره</a></li>
+    <li align="center"><a href="{% url 'جغول مغول'%}">جغول مغول</a></li>
+    <li align="center"><a href="{% url 'سیر قلیه'%}">سیر قلیه</a></li>
+    <li align="center"><a href="{% url 'فسنجون'%}">فسنجون</a></li>
+    <li align="center"><a href="{% url 'کال کباب'%}">کال کباب</a></li>
+    <li align="center"><a href="{% url 'میرزا قاسمی'%}">میرزا قاسمی</a></li>
+</ul>
+
+{% endblock content %}

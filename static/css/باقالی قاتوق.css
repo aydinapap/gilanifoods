@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'kk';
+    src: url(../font/lalezar.woff);
+}
+
+body{
+    background-color: rgba(244,244,244,0.7);
+    font-family: 'kk';
+ background-image:url(../aks/نماد\ گیلان.jpeg);
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+#ma{
+    background-color: rgba(244,244,244,0.7);
+}
+p{
+    background-color: rgba(244,244,244,0.7);
+}
+.a{
+    background-color: rgba(244,244,244,0.7);
+}
+nav{
+    background-color: rgba(244,244,244,0.7);
+}
+#n{
+    text-decoration: none;
+    background-color: rgba(244,244,244,0.7);
+}

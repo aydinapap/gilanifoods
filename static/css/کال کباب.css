@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'bav';
+    src: url(../font/lalezar.woff);
+}
+body{
+    background-image: url(../aks/نماد\ گیلان.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'bav';
+}
+.m{
+    background-color: rgba(222, 222, 222,0.6);    
+}
+.q{
+    text-decoration: none;
+}

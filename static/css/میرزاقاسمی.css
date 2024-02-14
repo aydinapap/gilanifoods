@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'mm';
+    src: url(../font/lalezar.woff);
+}
+body{
+    font-family: 'mm';
+    background-image:url(../aks/نماد\ گیلان.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.man{
+    background-color: rgba(222, 222, 222, 0.6);
+}
+.p{
+    text-decoration: none;
+}
